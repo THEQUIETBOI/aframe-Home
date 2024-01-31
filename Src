@@ -1,8 +1,6 @@
 <html>
     <head>
         <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-        <meta name="apple-mobile-web-app-capable" content="yes">
-
     </head>
     <body>
 
@@ -62,7 +60,6 @@
                     scale="0.04487 0.02928 0.02928"
                     position="5.19608 1.40077 3.95856"></a-entity>
             </a-entity>
-            <a-entity touchEnabled=true ></a-entity>
             <a-entity
                 obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/couch.obj"
                 position="1.59918 0.04499 -3.97218"
