@@ -1,134 +1,104 @@
 <html>
-    <head>
-        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-    </head>
-    <body>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
 
-        <a-scene background="color: lightblue">
-            <a-camera>
-                <a-cursor></a-cursor>
-            </a-camera>
+   
 
-            <a-entity position="0 0.03676 0">
-                <a-box material geometry scale="7.63113 0.2539 17.55633"
-                    position="4.86706 0 0"></a-box><a-box material geometry
-                    scale="7.732 0.254 13.977"
-                    position="-2.698 0 -1.782"></a-box><a-box
-                    material="color: #276d3e" geometry="primitive: plane"
-                    scale="40 40 13.977" position="-2.698 0 -1.782"
-                    rotation="270 0 0"></a-box><a-box material="color: #9c4040"
-                    geometry
-                    scale="17.71202 3.98547 0.12148"
-                    position="8.64927 1.98912 -0.08545"
-                    rotation="0 90 0"></a-box><a-box material="color: #9c4040"
-                    geometry
-                    scale="8.31528 3.95827 0.12148"
-                    position="-1.21917 1.98912 -4.67663"
-                    rotation="0 90 0"></a-box><a-box material="color: #9c4040"
-                    geometry
-                    scale="2.07667 3.95827 0.12148"
-                    position="-5.48848 1.98912 -0.55755"
-                    rotation="0 180 0"></a-box><a-box material="color: #9c4040"
-                    geometry
-                    scale="1.94349 3.95827 0.12148"
-                    position="-2.15621 1.98912 -0.55755"
-                    rotation="0 180 0"></a-box><a-box material="color: #683b3b"
-                    geometry
-                    scale="3.29981 3.98547 0.121"
-                    position="-4.85006 1.98912 5.26632"></a-box><a-box
-                    material="color: #683b3b" geometry
-                    scale="2.92262 3.98547 0.12148"
-                    position="-0.40298 1.98912 5.26632"></a-box><a-box
-                    material="color: #683b3b" geometry
-                    scale="0.121 3.98547 8.84717"
-                    position="1.03458 1.98912 4.471"></a-box><a-box
-                    material="color: #683b3b" geometry
-                    scale="2.92262 1.74557 0.12148"
-                    position="-2.52151 3.1193 5.26632"></a-box><a-box
-                    material="color: #683b3b" geometry
-                    scale="15.17119 3.98547 0.12148"
-                    position="1.02354 1.98912 -8.84003"></a-box><a-box
-                    material="color: #683b3b" geometry
-                    scale="5.33975 3.98547 0.12148"
-                    position="5.94271 1.98912 0.00287"></a-box><a-box
-                    material="color: #e60000" geometry
-                    scale="14.2517 3.98547 0.12148"
-                    position="-6.5581 1.95084 -1.83877"
-                    rotation="0 90 0"></a-box>
-                <a-entity
-                    gltf-model="https://raw.githubusercontent.com/Adhidaiva-Gupta/Pro-Assignment-152-Car-3D-Model-A-FRAME-DOM-JavaScript-Event-Listeners/main/assets/car/scene.gltf"
-                    scale="0.04487 0.02928 0.02928"
-                    position="5.19608 1.40077 3.95856"></a-entity>
-            </a-entity>
-            <a-entity
-                obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/couch.obj"
-                position="1.59918 0.04499 -3.97218"
-                scale="0.24776 0.254 0.24776"
-                rotation="0 180 0"></a-entity>
-            <a-entity
-                obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/bhewfbhjlbea"
-                position="-3.89143 0.05064 -7.2778"
-                scale="-0.49706 -0.49706 -0.74507"
-                rotation="0 270 180" material="emissive: #0
+    <a-scene background="color: lightblue">
+     <a-camera>
+      <a-cursor></a-cursor>
+     </a-camera>
+
+      <a-entity position="0 0.03676 0">
+        <a-box material geometry scale="7.63113 0.2539 17.55633"
+          position="4.86706 0 0"></a-box><a-box material geometry
+          scale="7.732 0.254 13.977" position="-2.698 0 -1.782"></a-box><a-box
+          material="color: #276d3e" geometry="primitive: plane"
+          scale="40 40 13.977" position="-2.698 0 -1.782"
+          rotation="270 0 0"></a-box><a-box material="color: #9c4040" geometry
+          scale="17.71202 3.98547 0.12148" position="8.64927 1.98912 -0.08545"
+          rotation="0 90 0"></a-box><a-box material="color: #9c4040" geometry
+          scale="8.31528 3.95827 0.12148" position="-1.21917 1.98912 -4.67663"
+          rotation="0 90 0"></a-box><a-box material="color: #9c4040" geometry
+          scale="2.07667 3.95827 0.12148" position="-5.48848 1.98912 -0.55755"
+          rotation="0 180 0"></a-box><a-box material="color: #9c4040" geometry
+          scale="1.94349 3.95827 0.12148" position="-2.15621 1.98912 -0.55755"
+          rotation="0 180 0"></a-box><a-box material="color: #683b3b" geometry
+          scale="3.29981 3.98547 0.121"
+          position="-4.85006 1.98912 5.26632"></a-box><a-box
+          material="color: #683b3b" geometry scale="2.92262 3.98547 0.12148"
+          position="-0.40298 1.98912 5.26632"></a-box><a-box
+          material="color: #683b3b" geometry scale="0.121 3.98547 8.84717"
+          position="1.03458 1.98912 4.471"></a-box><a-box
+          material="color: #683b3b" geometry scale="2.92262 1.74557 0.12148"
+          position="-2.52151 3.1193 5.26632"></a-box><a-box
+          material="color: #683b3b" geometry scale="15.17119 3.98547 0.12148"
+          position="1.02354 1.98912 -8.84003"></a-box><a-box
+          material="color: #683b3b" geometry scale="5.33975 3.98547 0.12148"
+          position="5.94271 1.98912 0.00287"></a-box><a-box
+          material="color: #e60000" geometry scale="14.2517 3.98547 0.12148"
+          position="-6.5581 1.95084 -1.83877" rotation="0 90 0"></a-box>
+        <a-entity
+          gltf-model="https://raw.githubusercontent.com/Adhidaiva-Gupta/Pro-Assignment-152-Car-3D-Model-A-FRAME-DOM-JavaScript-Event-Listeners/main/assets/car/scene.gltf"
+          scale="0.04487 0.02928 0.02928"
+          position="5.19608 1.40077 3.95856"></a-entity>
+      </a-entity>
+      <a-entity
+        obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/couch.obj"
+        position="1.59918 0.04499 -3.97218" scale="0.24776 0.254 0.24776"
+        rotation="0 180 0"></a-entity>
+      <a-entity
+        obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/bhewfbhjlbea"
+        position="-3.89143 0.05064 -7.2778" scale="-0.49706 -0.49706 -0.74507"
+        rotation="0 270 180" material="emissive: #0
         <a-entity position=" 1.848 1.21801 -4.89657"
-                scale="0.01583 0.01583 0.01583" rotation="0 270 0"
-                obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/flatscreen-tv-46-inch.obj"></a-entity>
-            <a-entity class="BIGTV"
-                obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/flatscreen-tv-46-inch.obj"
-                scale="0.03083 0.03083 0.03754" material="color: #c51111"
-                rotation="0 270 0"
-                position="2.00921 1.8074 -4.81576"></a-entity>
-            <a-entity
-                obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/table.obj"
-                position="1.84802 0.04499 -4.95427"
-                scale="0.24776 0.254 0.24776"
-                rotation="0 270 0"
-                material="src: https://cdn.jsdelivr.net/gh/THEQUIETBOI/aframe-Home@main/End-Table-diffuse1.png"></a-entity>
-            <a-entity>
-                <a-entity geometry position="8.31306 0.59874 -4.18457"
-                    scale="0.53961 1 1.52014"
-                    material="color: #ac880c"></a-entity>
-                <a-entity id="fridge-2"
-                    obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/STOVE.obj"
-                    scale="0.01 0.01 0.01" rotation="0 90 0"
-                    position="8.27711 0 -5.35909"
-                    material="color: #674242"></a-entity>
-                <a-entity geometry position="8.31306 0.59874 -6.50346"
-                    scale="0.53961 1 1.52014"
-                    material="color: #caa00c"></a-entity>
+        scale="0.01583 0.01583 0.01583" rotation="0 270 0"
+        obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/flatscreen-tv-46-inch.obj"></a-entity>
+      <a-entity class="BIGTV"
+        obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/flatscreen-tv-46-inch.obj"
+        scale="0.03083 0.03083 0.03754" material="color: #c51111"
+        rotation="0 270 0" position="2.00921 1.8074 -4.81576"></a-entity>
+      <a-entity
+        obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/table.obj"
+        position="1.84802 0.04499 -4.95427" scale="0.24776 0.254 0.24776"
+        rotation="0 270 0"
+        material="src: https://cdn.jsdelivr.net/gh/THEQUIETBOI/aframe-Home@main/End-Table-diffuse1.png"></a-entity>
+      <a-entity>
+        <a-entity geometry position="8.31306 0.59874 -4.18457"
+          scale="0.53961 1 1.52014" material="color: #ac880c"></a-entity>
+        <a-entity id="fridge-2"
+          obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/STOVE.obj"
+          scale="0.01 0.01 0.01" rotation="0 90 0" position="8.27711 0 -5.35909"
+          material="color: #674242"></a-entity>
+        <a-entity geometry position="8.31306 0.59874 -6.50346"
+          scale="0.53961 1 1.52014" material="color: #caa00c"></a-entity>
 
-                <a-image
-                    src="https://static-cdn.jtvnw.net/jtv_user_pictures/ef28ba12-c8ed-46d4-838b-a4c95ef5b469-profile_image-300x300.png"
-                    material geometry position="1.947 1.806 -4.825"
-                    rotation="0 270 0" scale="3.078 1.6 1" id="CASEOH"
-                    sound__what></a-image>
-                <a-entity id="river" geometry="primitive: plane"
-                    material="color: blue"
-                    position="-10 0 0"
-                    sound="src: url(river.mp3); autoplay: true"></a-entity>
+          <a-image src="https://static-cdn.jtvnw.net/jtv_user_pictures/ef28ba12-c8ed-46d4-838b-a4c95ef5b469-profile_image-300x300.png" material="" geometry="" position="1.947 1.806 -4.825" rotation="0 270 0" scale="3.078 1.6 1" id="CASEOH" sound__what=""></a-image>
+          <a-entity id="river" geometry="primitive: plane" material="color: blue"
+          position="-10 0 0" sound="src: url(river.mp3); autoplay: true"></a-entity>
 
-                <a-entity id="fridge"
-                    obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/not-too-modern-fridge.obj"
-                    scale="0.01 0.01 0.01" rotation="0 90 0"
-                    position="7.94681 0 -8.29205"
-                    material="color: #716a6a"></a-entity>
-            </a-entity>
-            <a-entity>
-                <a-box id="my-box" material="color: gray"
-                    geometry="width: 2; height: 2"
-                    scale="0.38976 0.30578 0.39867"
-                    position="8.29157 1.3586 -4.40594"
-                    text__foo="align: center; alphaTest: 0; tabSize: 0; value: Radio; wrapCount: 5.3; zOffset: 0.501"
-                    rotation="0 270 0"></a-box>
-            </a-entity>
+ 
+        <a-entity id="fridge"
+          obj-model="obj: https://raw.githubusercontent.com/THEQUIETBOI/aframe-Home/main/not-too-modern-fridge.obj"
+          scale="0.01 0.01 0.01" rotation="0 90 0" position="7.94681 0 -8.29205"
+          material="color: #716a6a"></a-entity>
+      </a-entity>
+    <a-entity>
+        <a-box id="my-box" material="color: gray" geometry="width: 2; height: 2" scale="0.38976 0.30578 0.39867" position="8.29157 1.3586 -4.40594" text__foo="align: center; alphaTest: 0; tabSize: 0; value: Radio; wrapCount: 5.3; zOffset: 0.501" rotation="0 270 0"></a-box> 
+    </a-entity>
+      
+    
+    
 
-        </a-scene>
-        <script>
+    </a-scene>
+<script>
  
  let isOn = true;  // Initial state (assuming it starts visible)
 
 
-document.querySelector('#CASEOH').addEventListener('click', function () {
+document.querySelector('#CASEOH').addEventListener('mouseenter', function () {
  
 var math = Math.floor(Math.random()* 4) + 1;
 if (math == 1 && isOn){
@@ -162,15 +132,15 @@ if (math == 4 && isOn){
 
 </script>
 
-        <script>
+<script>
     const box = document.querySelector('#my-box');
 const audio = new Audio('https://cdn.jsdelivr.net/gh/THEQUIETBOI/aframe-Home@main/AUDIO/sticking-out-ur-gyat-for-the-rizzler.mp3');
 
-box.addEventListener('click', () => {
+box.addEventListener('mouseleave', () => {
   audio.play();
 });
 
 </script>
 
-    </body>
+  </body>
 </html>
