@@ -7,7 +7,7 @@
    
 
     <a-scene background="color: lightblue" stats>
-     <a-camera camera look-controls wasd-controls="acceleration:100; fly:true" position="0 1.6 0">
+     <a-camera camera look-controls wasd-controls="acceleration:50;" position="0 1.6 0">
       <a-cursor></a-cursor>
      </a-camera>
 
